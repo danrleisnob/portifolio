@@ -18,7 +18,6 @@ body img:hover{
     transform: scale(1.1);
 }
 
-
 p {
     margin: 10px 0;
 }
@@ -60,10 +59,11 @@ nav button {
     cursor: pointer;
     transition: box-shadow 0.3s ease;
     border: none;
+    transition: transform 0.3s;
 }
 
 nav button:hover {
-    outline: none;
+    transform: scale(1.1);
 }
 
 #historia{
